@@ -1,6 +1,4 @@
-use std::fmt::Display;
-use std::fmt::Result;
-use std::fmt::Formatter;
+use std::fmt::{Display, Formatter, Result};
 
 struct Swagger<T> {
     x: T,
